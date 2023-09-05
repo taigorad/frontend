@@ -86,7 +86,7 @@ const PhoneSignUp = () => {
             city:f
           }),
         };
-        fetch("https://fiinzet.com/senduserinput", prerequire)
+        fetch("https://13.49.118.40:2000/senduserinput", prerequire)
           .then((data) => {
             console.log(data);
           })
