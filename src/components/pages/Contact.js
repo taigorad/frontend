@@ -25,7 +25,7 @@ const Contactus = () => {
         message: message,
       }),
     };
-    fetch("https://fiinzet.com/contact", prerequire)
+    fetch("https://13.49.118.40:2000/contact", prerequire)
       .then(() => {
         window.alert("Register successfully ")
         setname("");
